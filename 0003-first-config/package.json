@@ -1,7 +1,7 @@
 {
-  "name": "0002-first-loader",
+  "name": "0003-first-config",
   "version": "1.0.0",
-  "description": "Webpack Loaders",
+  "description": "Webpack Config",
   "author": "David Parker",
   "private": true,
   "main": "index.js",
