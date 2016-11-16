@@ -1,7 +1,7 @@
 {
-  "name": "0003-first-config",
+  "name": "0004-multiple-entry-points",
   "version": "1.0.0",
-  "description": "Webpack Config",
+  "description": "Webpack multiple entry points",
   "author": "David Parker",
   "private": true,
   "main": "index.js",

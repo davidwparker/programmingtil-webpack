@@ -14,8 +14,7 @@ $ npm start
 View at: http://localhost:8080/
 
 CONCEPTS:
-webpack 
+webpack multiple entry points
 
 RESOURCES:
-* https://github.com/davidwparker/programmingtil-webpack/tree/master/0004-
-*
+* https://github.com/davidwparker/programmingtil-webpack/tree/master/0004-multiple-entry-points
