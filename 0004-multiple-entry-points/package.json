@@ -1,0 +1,23 @@
+{
+  "name": "0003-first-config",
+  "version": "1.0.0",
+  "description": "Webpack Config",
+  "author": "David Parker",
+  "private": true,
+  "main": "index.js",
+  "keywords": [
+    "webpack"
+  ],
+  "scripts": {
+    "start": "webpack | webpack-dev-server --progress --colors --watch"
+  },
+  "dependencies": {
+    "css-loader": "^0.25.0",
+    "style-loader": "^0.13.1",
+    "watchify": "^3.7.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
