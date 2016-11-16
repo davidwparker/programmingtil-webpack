@@ -1,0 +1,28 @@
+{
+  "name": "0006-separate-css-single-file",
+  "version": "1.0.0",
+  "description": "Webpack Config",
+  "author": "David Parker",
+  "private": true,
+  "main": "index.js",
+  "keywords": [
+    "webpack"
+  ],
+  "scripts": {
+    "precompile": "npm run clean",
+    "clean": "rimraf *bundle*",
+    "compile": "webpack",
+    "start": "webpack-dev-server --progress --colors --watch"
+  },
+  "dependencies": {
+    "css-loader": "^0.25.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "style-loader": "^0.13.1",
+    "watchify": "^3.7.0"
+  },
+  "devDependencies": {
+    "rimraf": "^2.5.4",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
