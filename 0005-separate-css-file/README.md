@@ -8,6 +8,8 @@ $ npm install
 
 Run:
 ```
+$ npm run clean
+$ npm run compile
 $ npm start
 ```
 
