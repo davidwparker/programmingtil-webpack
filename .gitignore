@@ -2,6 +2,8 @@ node_modules/
 npm-debug.log
 bundle.js
 bundle.css
+bundle.html
 .DS_Store
 *.bundle.js
 *.bundle.css
+*.bundle.html
