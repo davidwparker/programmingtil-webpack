@@ -1,4 +1,5 @@
-STARTING OFF:
+## STARTING OFF:
+
 Make sure you have npm installed.
 
 Install dependencies:
@@ -14,9 +15,11 @@ $ npm start
 
 View at: http://localhost:8080/index.bundle.html
 
-CONCEPTS:
+## CONCEPTS:
+
 webpack long term caching
 
-RESOURCES:
+## RESOURCES:
+
 * https://github.com/davidwparker/programmingtil-webpack/tree/master/0007-long-term-caching
 * http://webpack.github.io/docs/long-term-caching.html

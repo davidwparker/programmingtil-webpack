@@ -1,4 +1,5 @@
-STARTING OFF:
+## STARTING OFF:
+
 Make sure you have npm installed.
 
 Install dependencies:
@@ -15,9 +16,11 @@ $ npm start
 
 View at: http://localhost:8080/
 
-CONCEPTS:
+## CONCEPTS:
+
 webpack separate stylesheets
 
-RESOURCES:
+## RESOURCES:
+
 * https://github.com/davidwparker/programmingtil-webpack/tree/master/0005-separate-css-file
 * http://webpack.github.io/docs/stylesheets.html
