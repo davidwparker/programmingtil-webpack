@@ -1,0 +1,21 @@
+{
+  "name": "0008-code-splitting",
+  "version": "1.0.0",
+  "description": "Webpack Code Splitting",
+  "author": "David Parker",
+  "private": true,
+  "main": "index.js",
+  "keywords": [
+    "webpack"
+  ],
+  "scripts": {
+    "precompile": "npm run clean",
+    "clean": "rimraf *bundle*",
+    "compile": "webpack --display-chunks --display-modules --display-origins --display-entrypoints",
+    "start": "npm run compile"
+  },
+  "devDependencies": {
+    "rimraf": "^2.5.4",
+    "webpack": "^1.13.1"
+  }
+}
