@@ -8,7 +8,7 @@ $ npm install
 
 Run:
 ```
-$ npm compile
+$ npm run compile
 $ npm start
 ```
 
