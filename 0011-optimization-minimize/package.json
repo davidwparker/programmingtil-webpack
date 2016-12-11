@@ -1,0 +1,22 @@
+{
+  "name": "0011-optimization",
+  "version": "1.0.0",
+  "description": "Webpack Optimization",
+  "author": "David Parker",
+  "private": true,
+  "main": "index.js",
+  "keywords": [
+    "webpack"
+  ],
+  "scripts": {
+    "precompile": "npm run clean",
+    "clean": "rimraf *bundle*",
+    "compile": "webpack --display-chunks --display-modules --display-origins --display-entrypoints",
+    "start": "npm run compile",
+    "optimize": "webpack --display-chunks --display-modules --display-origins --display-entrypoints --optimize-minimize"
+  },
+  "devDependencies": {
+    "rimraf": "^2.5.4",
+    "webpack": "^1.13.1"
+  }
+}
