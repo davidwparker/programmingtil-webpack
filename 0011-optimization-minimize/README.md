@@ -30,5 +30,5 @@ Many plugins, which we'll look at another time:
 
 ## RESOURCES:
 
-* https://github.com/davidwparker/programmingtil-webpack/tree/master/0011-optimization
+* https://github.com/davidwparker/programmingtil-webpack/tree/master/0011-optimization-minimize
 * http://webpack.github.io/docs/optimization.html
